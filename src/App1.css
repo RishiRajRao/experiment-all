@@ -1,0 +1,43 @@
+.custom-nav{
+  background-color: black;
+  color: white;
+  display:flex;
+  justify-content:flex-start;
+  padding-right: 20px;
+}
+
+.custom-nav a:hover{
+  background-color: whitesmoke;
+  color: black;
+} 
+
+.dropdown:hover .drop-list{
+  display: block;
+}
+
+.custom-nav a{
+  text-decoration: none;
+  padding-right: 40px;
+  text-align: center;
+  color:white;
+}
+
+.drop-list{
+  display: none;
+  /* z-index:1; */
+  background-color:gray;
+  position: absolute;
+  width:200px;
+
+}
+
+.drop-list a{
+ display:block;
+ text-align: left;
+ text-decoration: none;
+ margin-top: 5px;
+}
+.drop-list a:hover{
+background-color: black;
+color: antiquewhite;
+}
